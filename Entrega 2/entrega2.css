@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.indexh1 {
+    color: rgb(37, 37, 190);
+    font-size: 50px;
+    text-shadow: 2px 2px 7px rgb(122, 122, 122);
+}
+
+.banner1 {
+    width: 100vw
+}
+
+header{
+    background-color: royalblue;
+    top: 0;
+    margin-bottom: auto;
+}
+
+article{
+    background-color: white;
+}
+
+aside{
+    background-color: white;
+}
+
+footer {
+    background-color: royalblue;
+    font-size: 15px;
+    bottom: 0;
+    margin-top: auto;
+    color: #fff;
+    
+}
+
+.form__test {
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0  0  0 / 30%);
+    text-align: center;
+    gap: 30px;
+}
+
+.form__tittle {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.form__div {
+    margin-top: 90px;
+    display: grid;
+    gap: 25px;
+}
+
+.form__group {
+    position: relative;
+    --color: #5757577e;
+}
+
+.form__input {
+    width: 100%;
+    color: #706c6c;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+
+.form__input:focus + .form__label,
+.form__input:not(:placeholder-shown) + .form__label{
+    transform: translateY(-12px) scale(.7)    
+}
+
+.form__label {
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.polo__img {
+    width: 200px;
+}
+
+.vento__img {
+    width: 200px;
+}
+
+.tiguan__img {
+    width: 200px;
+}
+
+.amarok__img {
+    width: 200px;
+}
+
+.banner__1{
+    width: 100%;
+}
+
+.asside__amarok{
+    left: 0%;
+}
+
+.banner__polo {
+    width: 100%;
+}
+
+.banner__vento {
+    width: 100%;
+}
+
+.banner__tiguan {
+    width: 100%;
+}
+
+.banner__3 {
+    width: 60%;
+}
